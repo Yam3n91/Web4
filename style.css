@@ -1,0 +1,149 @@
+html {
+    background: linear-gradient(#92A332, #849531, #56642A);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+header {
+    background: linear-gradient(to bottom right, #56642A, #849531, #92A332);
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    margin: 5px 20px 5px 5px;
+}
+
+.logo {
+    margin: 5px 5px 5px 20px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sideBar {
+    height: 70hv;
+    width: 15vw;
+    padding: 0 25px 0 5px;
+    border-radius: 10px;
+    margin: 1%;
+    background: linear-gradient(to bottom right, #56642A, #849531, #92A332);
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+.rightSide {
+    height: 70vh;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 1%;
+    padding: 5px;
+}
+
+.upperSec {
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    border-radius: 10px;
+    background: linear-gradient(to bottom right, #56642A, #849531, #92A332);
+}
+
+.lowerSec {
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 100px;
+    border-radius: 10px;
+    background: linear-gradient(to bottom right, #56642A, #849531, #92A332);
+}
+
+button {
+    height: 40px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: 2px;
+}
+
+.textUp {
+    margin-right: 10px;
+}
+
+.textUp>h1 {
+    text-align: right;
+}
+
+.textDown {
+    margin-right: 10px;
+}
+
+.textDown>h1 {
+    text-align: right;
+}
+
+button:hover {
+    background-color: #aaaaaa;
+}
+
+footer {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to top right, #56642A, #849531, #92A332);
+}
+
+.facebook-icon {
+    color: #aaaaaa;
+    padding: 10px;
+    transition: color 0.2s;
+}
+
+.facebook-icon:hover {
+    color: rgba(0, 0, 157, 0.748);
+}
+
+.instagram-icon {
+    color: #aaaaaa;
+    transition: color 0.2s;
+}
+
+.instagram-icon:hover {
+    color: #bc1888;
+}
+
+.twitter-icon {
+    color: #aaaaaa;
+    transition: color 0.2s;
+}
+
+.twitter-icon:hover {
+    color: #333333;
+}
+
+.media>a {
+    margin-left: 20px;
+    padding: 5px;
+}
+
+footer>.right {
+    margin: 20px 20px 20px 5px;
+}
